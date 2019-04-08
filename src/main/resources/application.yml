@@ -1,0 +1,15 @@
+#spring:
+#  data:
+#    elasticsearch:
+#      cluster-name: es-docker-cluster
+#      cluster-nodes: localhost:9300
+
+elasticsearch:
+  cluster:
+    name: es-docker-cluster
+  host: localhost
+  port: 9300
+  http-port: 9200
+
+server:
+  port: 8085
